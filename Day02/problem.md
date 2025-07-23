@@ -84,7 +84,7 @@ This keeps the substring valid at all times and ensures we find the longest one 
 ### Pseudocode
 
 
-````Initialize left = 0, right = 0
+```Initialize left = 0, right = 0
 Initialize count[26] = {0}
 Initialize maxWindow = 0
 
@@ -99,11 +99,9 @@ count[s[left] - 'a']--
 left++
 
 return maxWindow
-
-
-
-
-###  Time Complexity
+```
+---
+## Time Complexity
 
 - Each character is visited at most twice: once by `right`, once by `left`
 - So it's a clean **O(n)** time solution  
