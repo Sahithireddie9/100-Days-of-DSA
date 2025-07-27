@@ -34,18 +34,18 @@ Try every possible subarray starting from each index. For each starting point, k
 ---
 
 ### Pseudocode
-
+```
 minLen = ∞
 
 for i = 0 to n - 1:
-sum = 0
-for j = i to n - 1:
-sum += nums[j]
-if sum >= target:
-minLen = min(minLen, j - i + 1)
-break
+    sum = 0
+    for j = i to n - 1:
+        sum += nums[j]
+        if sum >= target:
+            minLen = min(minLen, j - i + 1)
+            break
 
-return minLen == ∞ ? 0 : minLen
+return minLen == ∞ ? 0 : minLen```
 
 ---
 
