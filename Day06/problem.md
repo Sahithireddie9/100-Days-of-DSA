@@ -34,6 +34,7 @@ Try every possible subarray starting from each index. For each starting point, k
 ---
 
 ### Pseudocode
+
 minLen = ∞
 
 for i = 0 to n - 1:
