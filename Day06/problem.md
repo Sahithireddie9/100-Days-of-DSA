@@ -34,7 +34,6 @@ Try every possible subarray starting from each index. For each starting point, k
 ---
 
 ### Pseudocode
-```
 minLen = ∞
 
 for i = 0 to n - 1:
@@ -45,7 +44,7 @@ for i = 0 to n - 1:
             minLen = min(minLen, j - i + 1)
             break
 
-return minLen == ∞ ? 0 : minLen```
+return minLen == ∞ ? 0 : minLen
 
 ---
 
