@@ -34,7 +34,7 @@ Try every possible subarray starting from each index. For each starting point, k
 ---
 
 ### Pseudocode
-
+```
 minLen = ∞
 
 for i = 0 to n - 1:
@@ -46,7 +46,7 @@ for i = 0 to n - 1:
             break
 
 return minLen == ∞ ? 0 : minLen
-
+```
 ---
 
 ### Time Complexity
@@ -69,7 +69,7 @@ Use two pointers to create a sliding window. Expand the window by moving `right`
 
 ### Pseudocode
 
-left = 0, right = 0
+```left = 0, right = 0
 currentSum = 0
 minLen = ∞
 
@@ -82,7 +82,7 @@ while right < n:
         currentSum -= nums[left]
         left++
 return minLen == ∞ ? 0 : minLen
-
+```
 ---
 
 ### Time Complexity
