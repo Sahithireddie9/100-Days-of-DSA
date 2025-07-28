@@ -74,7 +74,6 @@ This way, each character is visited at most twice.
 ---
 
 ### Pseudocode
-
 left = 0, right = 0, windowSize = 0
 initialize count array of size 256
 

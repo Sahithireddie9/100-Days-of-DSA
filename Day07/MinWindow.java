@@ -6,7 +6,7 @@ public class MinWindow {
 
         int[] freq = new int[128]; // ASCII
 
-        // Fill target frequencies
+
         for (char c : t.toCharArray()) {
             freq[c]++;
         }
@@ -30,7 +30,7 @@ public class MinWindow {
 
                 char lChar = s.charAt(left);
                 freq[lChar]++;
-                if (freq[lChar] > 0) required++; // character is needed again
+                if (freq[lChar] > 0) required++; 
                 left++;
             }
         }
