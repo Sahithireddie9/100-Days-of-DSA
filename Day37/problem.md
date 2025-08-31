@@ -1,4 +1,4 @@
-# Remove K Digits — Study Notes
+# Remove K Digits 
 
 > **Goal:** Given a numeric string `num` and integer `k`, remove exactly `k` digits so the resulting integer (as a string) is the **smallest possible**. Remove leading zeros in the final answer (unless the result is just `"0"`).
 
