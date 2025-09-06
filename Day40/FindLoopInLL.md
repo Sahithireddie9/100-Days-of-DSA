@@ -59,7 +59,7 @@ function hasCycle(head):
 - **Time:** `O(n)` — each node processed at most once.  
 - **Space:** `O(n)` — may store all nodes if no cycle.
 
-### Java (Clean)
+### Java 
 ```java
 import java.util.HashSet;
 import java.util.Set;
@@ -112,7 +112,7 @@ function hasCycle(head):
 - **Time:** `O(n)`  
 - **Space:** `O(1)` — only pointers used
 
-### Java (LeetCode-Ready)
+### Java 
 ```java
 public class Solution {
     public boolean hasCycle(ListNode head) {
