@@ -1,7 +1,7 @@
 
-#  Trees in Data Structures — Complete Guide (Markdown Cheatsheet)
+#  Trees in Data Structures — Complete Guide 
 
-## 1) What is a Tree? (Plain-English definition)
+## 1) What is a Tree? 
 
 A **tree** is a hierarchical data structure made of **nodes** connected by **edges**.  
 It has:
